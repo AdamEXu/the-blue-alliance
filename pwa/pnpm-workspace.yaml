@@ -11,3 +11,6 @@ allowBuilds:
   protobufjs: true
   unrs-resolver: true
   vue-demi: true
+
+overrides:
+  '@scalar/typebox': ^0.1.4

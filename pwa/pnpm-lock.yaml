@@ -4,6 +4,9 @@ settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
 
+overrides:
+  '@scalar/typebox': ^0.1.4
+
 importers:
 
   .:
@@ -2727,8 +2730,8 @@ packages:
     resolution: {integrity: sha512-tr33cE4/Y+8rwDs9k5fcFKwhr1cMtK6rfrFy5QpkaC1sN4jjHEopWP+j/EhR0A19S/vFXRt6K65CbMlSaFjNag==}
     engines: {node: '>=22'}
 
-  '@scalar/typebox@0.1.3':
-    resolution: {integrity: sha512-lU055AUccECZMIfGA0z/C1StYmboAYIPJLDFBzOO81yXBi35Pxdq+I4fWX6iUZ8qcoHneiLGk9jAUM1rA93iEg==}
+  '@scalar/typebox@0.1.4':
+    resolution: {integrity: sha512-HIneHpbcBnB7aSHQQjb88gh41ZVECjRvS6oDkq24atjjJkO+Gzc6zFrMeuypLyFEq/DHMikBgFnNnT2T3rdbaA==}
 
   '@scalar/types@0.24.0':
     resolution: {integrity: sha512-x4O8ddCvh+59zwh9Xc+bG2QACxYARcPDfJBYiUzD/hzSxb6vpcms+WKgMksBfYWCZneO6e5Kt6hZFBoE9D9YCg==}
@@ -10324,7 +10327,7 @@ snapshots:
       '@scalar/sidebar': 0.12.1(supports-color@10.2.2)(tailwindcss@4.3.3)(typescript@6.0.3)
       '@scalar/snippetz': 0.10.9
       '@scalar/themes': 0.19.2
-      '@scalar/typebox': 0.1.3
+      '@scalar/typebox': 0.1.4
       '@scalar/types': 0.24.0
       '@scalar/use-codemirror': 0.14.15(typescript@6.0.3)
       '@scalar/use-hooks': 0.4.21(typescript@6.0.3)
@@ -10595,7 +10598,7 @@ snapshots:
     dependencies:
       nanoid: 5.1.16
 
-  '@scalar/typebox@0.1.3': {}
+  '@scalar/typebox@0.1.4': {}
 
   '@scalar/types@0.24.0':
     dependencies:
@@ -10653,7 +10656,7 @@ snapshots:
       '@scalar/openapi-upgrader': 0.4.5
       '@scalar/schemas': 0.14.0
       '@scalar/snippetz': 0.10.9
-      '@scalar/typebox': 0.1.3
+      '@scalar/typebox': 0.1.4
       '@scalar/types': 0.24.0
       '@scalar/validation': 0.6.7
       js-base64: 3.9.4
